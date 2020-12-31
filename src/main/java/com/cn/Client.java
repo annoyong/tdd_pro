@@ -1,8 +1,6 @@
 package com.cn;
 
-
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -11,8 +9,6 @@ import java.util.List;
  * CreateTimr 2020-12-31
  */
 public class Client {
-    private static final String BOXONE = "1";
-    private static final String ZERO = "0";
 
     /**
      *
