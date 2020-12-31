@@ -20,7 +20,7 @@ public class ClientTest {
     public void should_returen_secret_num_when_box_is_one() {
         //given
         Client client = new Client();
-        int expect = 3229171;
+        int expect = 3229170;
         //when
         int actual = client.getSecretNum("1","0");
 
@@ -36,7 +36,7 @@ public class ClientTest {
     public void should_returen_secret_num_when_find_all_box() {
         //given
         Client client = new Client();
-        int[] expect ={3229171, 1640951, 27941, 2343356, 378555, 2184576, 786903, 35612, 534765, 2033620};
+        int[] expect ={3229170, 1135497, 2125891, 3041721, 179272, 1295904, 395138, 1871275, 99911, 1695112};
         //when
         int[] actual = client.findAllSecretNum();
 

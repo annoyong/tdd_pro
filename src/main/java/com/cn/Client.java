@@ -61,7 +61,7 @@ public class Client {
             }
             secretNum++;
         }
-        return secretNum;
+        return secretNum-1;
 
     }
 
