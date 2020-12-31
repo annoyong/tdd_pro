@@ -8,6 +8,7 @@ import java.security.NoSuchAlgorithmException;
  * CreateTimr 2020-12-31
  */
 public class Sha256 {
+
     /**
      * 利用java原生的类实现SHA256加密
      * @param str 报文
@@ -27,6 +28,8 @@ public class Sha256 {
         }
         return encodestr;
     }
+
+
     /**
      * 将byte转为16进制
      * @param bytes

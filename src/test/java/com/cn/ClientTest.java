@@ -12,6 +12,10 @@ import static org.junit.Assert.*;
  */
 public class ClientTest {
 
+    /**
+     *
+     * 测试获取第一个宝箱的神秘数字
+     */
     @Test
     public void should_returen_secret_num_when_box_is_one() {
         //given
@@ -24,6 +28,10 @@ public class ClientTest {
         assertEquals(expect,actual);
     }
 
+    /**
+     *
+     * 获取所有宝箱的神秘数字
+     */
     @Test
     public void should_returen_secret_num_when_find_all_box() {
         //given

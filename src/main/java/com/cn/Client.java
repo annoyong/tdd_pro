@@ -14,6 +14,10 @@ public class Client {
     private static final String BOXONE = "1";
     private static final String ZERO = "0";
 
+    /**
+     *
+     * @return 获取所有宝箱值
+     */
     public int[] findAllSecretNum(){
         int[ ] array = new int[10];
         List<Box> list = new ArrayList<Box>(16);
